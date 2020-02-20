@@ -46,7 +46,7 @@ NO *criar_no( int dado ){
  * Criar a Lista para armazenar os nós duplos
  */
 LISTA_DUPLA *criar_lista(){
-    LISTA_DUPLA *L = ( LISTA_DUPLA* ) calloc( 1, sizeof( LISTA_DUPLA ) ); // caloc já coloca o inicio e o fim da lista com NULL
+    LISTA_DUPLA *L = ( LISTA_DUPLA* ) calloc( 1, sizeof( LISTA_DUPLA ) ); // calloc já coloca o inicio e o fim da lista com NULL
     
     if(LISTA_DUPLA == NULL){
         printf("Sem memória para criar a lista duplamente encadeada...\n");
